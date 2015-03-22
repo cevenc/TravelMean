@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trals">
+    		<item >aaaaa</item>
+    		<item >bbbbb</item>
+    		<item >ccccc</item>
+    		<item >ddddd</item>
+    		<item >eeeee</item>
+	</string-array>
+ 	<string-array name="traitime">
+    		<item >11111</item>
+    		<item >22222</item>
+    		<item >33333</item>
+    		<item >44444</item>
+    		<item >55555</item>
+	</string-array>
+ 	<string-array name="traid">
+    		<item >11111</item>
+    		<item >22222</item>
+    		<item >33333</item>
+    		<item >44444</item>
+    		<item >55555</item>
+ 	</string-array>
+ 	<string-array name="tralist_dialoglist">
+    		<item >查看</item>
+    		<item >分享</item>
+    		<item >编辑</item>
+ 	</string-array>
+ 	<string-array name="write_dialoglist">
+    		<item >来自相册</item>
+    		<item >相机</item>
+ 	</string-array>
+ 
+</resources>

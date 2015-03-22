@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homebgp1" >
+
+        <ImageView
+            android:id="@+id/homeimageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="144dp"
+            android:src="@drawable/title2" />
+
+        <Button
+            android:id="@+id/homebt_createtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homeimageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"
+            android:text="创建旅途"
+            android:textColor="#ff20ff"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/homebt_trals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/homebt_createtra"
+            android:layout_below="@+id/homebt_createtra"
+            android:layout_marginTop="51dp"
+            android:text="旅途列表"
+            android:textColor="#ff20ff"
+            android:textSize="50dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

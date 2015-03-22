@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zhuodi"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="63dp" />
+
+    <ImageView
+        android:id="@+id/newimageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="92dp" />
+
+    <EditText
+        android:id="@+id/neweditText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/neweditText3"
+        android:layout_alignLeft="@+id/cretrabt_finish"
+        android:layout_marginBottom="24dp"
+        android:background="#88ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/neweditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/neweditText4"
+        android:layout_centerVertical="true"
+        android:background="#88ffffff"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:textSize="40sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/neweditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/neweditText3"
+        android:layout_below="@+id/neweditText3"
+        android:layout_marginTop="31dp"
+        android:background="#88ffffff"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/neweditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/neweditText2"
+        android:layout_below="@+id/neweditText2"
+        android:layout_marginTop="21dp"
+        android:background="#88ffffff"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="time"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/newimageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/biaoti" />
+
+    <ImageView
+        android:id="@+id/newimageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/neweditText2"
+        android:layout_alignLeft="@+id/newimageView5"
+        android:src="@drawable/chufa" />
+
+    <ImageView
+        android:id="@+id/newimageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/neweditText4"
+        android:layout_alignRight="@+id/newimageView2"
+        android:src="@drawable/name" />
+
+    <ImageView
+        android:id="@+id/newimageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/neweditText1"
+        android:layout_alignLeft="@+id/newimageView2"
+        android:src="@drawable/mudi" />
+
+    <ImageView
+        android:id="@+id/newimageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/neweditText1"
+        android:layout_alignRight="@+id/newimageView3"
+        android:src="@drawable/chufashijian" />
+
+    <ImageButton
+        android:id="@+id/cretrabt_finish"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/finish" />
+
+</RelativeLayout>

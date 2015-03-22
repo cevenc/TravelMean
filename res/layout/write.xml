@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/jiluye" >
+
+        <ImageView
+            android:id="@+id/proimageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/camera" />
+
+        <ImageButton
+            android:id="@+id/write_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/proimageButton1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="#5fffffff"
+            android:scaleType="fitCenter" 
+            android:src="@drawable/addpic" /> 
+
+        <ImageView
+            android:id="@+id/proimageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/proimageButton1"
+            android:src="@drawable/write" />
+
+        <EditText
+            android:id="@+id/write_edit"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/proimageView2"
+            android:background="#88ffffff"
+            android:gravity="top"
+            android:hint="写点什么吧。。。"
+            android:lines="4"
+            android:maxLines="4"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/write_OK"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/write_edit"
+            android:layout_toLeftOf="@+id/write_cancer"
+            android:text="确认"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/write_cancer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/write_OK"
+            android:layout_toRightOf="@+id/proimageView2"
+            android:text="取消"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/proimageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/proimageButton2"
+            android:layout_toRightOf="@+id/proimageButton1"
+            android:src="@drawable/diandi" />
+
+        <ImageView
+            android:id="@+id/proimageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/proimageButton2"
+            android:layout_alignRight="@+id/proimageView1"
+            android:src="@drawable/wenzi" />
+
+    </RelativeLayout>
+
+</LinearLayout>

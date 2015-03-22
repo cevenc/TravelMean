@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/createbgp2" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="116dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/crtextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="邮箱"
+                android:textColor="#ff0000"
+                android:textSize="45dp" />
+
+            <EditText
+                android:id="@+id/cremail"
+                android:layout_width="20dp"
+                android:layout_marginLeft="10dp"
+                android:inputType="textEmailAddress"
+                android:textSize="40sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/crtextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号"
+                android:textColor="#ff0000"
+                android:textSize="45dp" 
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/crname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusableInTouchMode="false"
+                android:inputType="textPersonName"
+                android:textSize="40sp"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"  >
+
+            <TextView
+                android:id="@+id/crtextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:textColor="#ff0000"
+                android:textSize="45dp" 
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/crpasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textSize="40sp"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"  >
+
+            <TextView
+                android:id="@+id/crtextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认"
+                android:textColor="#ff0000"
+                android:textSize="45dp" 
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/crpasswd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textSize="40sp" 
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/crbt_registe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="186dp"
+        android:text="注册"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/crbt_cancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/crbt_registe"
+        android:layout_alignBottom="@+id/crbt_registe"
+        android:layout_marginLeft="117dp"
+        android:layout_toRightOf="@+id/crbt_registe"
+        android:text="取消"
+        android:textSize="40sp" />
+
+</RelativeLayout>

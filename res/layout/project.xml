@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/jiluye" >
+
+        <ImageView
+            android:id="@+id/proimageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/proimageButton2"
+            android:layout_toLeftOf="@+id/proimageButton2"
+            android:src="@drawable/wenzi" />
+
+        <ImageView
+            android:id="@+id/proimageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/proimageButton1"
+            android:layout_marginRight="67dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/diandi" />
+
+        <ImageButton
+            android:id="@+id/proimageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/proimageView1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="172dp"
+            android:layout_marginLeft="23dp"
+            android:src="@drawable/write" />
+
+        <ImageButton
+            android:id="@+id/proimageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/proimageView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="152dp"
+            android:src="@drawable/camera" />
+
+    </RelativeLayout>
+
+</LinearLayout>
